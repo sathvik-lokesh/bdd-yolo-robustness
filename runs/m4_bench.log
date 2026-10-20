@@ -1,0 +1,26 @@
+torch_fp32  inference   6.19 ms (p90 8.96)  end-to-end  10.56 ms
+torch_fp16  inference   6.53 ms (p90 8.83)  end-to-end  11.48 ms
+Loading /home/sathvik_lokesh/Hanuman/nvidia-target/bdd-yolo-robustness/runs/m4/fp16.engine for TensorRT inference...
+[10/20/2026-11:48:41] [TRT] [I] Loaded engine size: 20 MiB
+[10/20/2026-11:48:41] [TRT] [I] [MS] Running engine with multi stream info
+[10/20/2026-11:48:41] [TRT] [I] [MS] Number of aux streams is 4
+[10/20/2026-11:48:41] [TRT] [I] [MS] Number of total worker streams is 5
+[10/20/2026-11:48:41] [TRT] [I] [MS] The main stream provided by execute/enqueue calls is the first worker stream
+[10/20/2026-11:48:41] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +30, now: CPU 0, GPU 48 (MiB)
+fp16        inference   1.47 ms (p90 1.55)  end-to-end   5.78 ms
+Loading /home/sathvik_lokesh/Hanuman/nvidia-target/bdd-yolo-robustness/runs/m4/int8_day.engine for TensorRT inference...
+[10/20/2026-11:48:44] [TRT] [I] Loaded engine size: 60 MiB
+[10/20/2026-11:48:44] [TRT] [I] [MS] Running engine with multi stream info
+[10/20/2026-11:48:44] [TRT] [I] [MS] Number of aux streams is 5
+[10/20/2026-11:48:44] [TRT] [I] [MS] Number of total worker streams is 6
+[10/20/2026-11:48:44] [TRT] [I] [MS] The main stream provided by execute/enqueue calls is the first worker stream
+[10/20/2026-11:48:44] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +77, now: CPU 0, GPU 133 (MiB)
+int8_day    inference   2.18 ms (p90 2.40)  end-to-end   7.42 ms
+Loading /home/sathvik_lokesh/Hanuman/nvidia-target/bdd-yolo-robustness/runs/m4/int8_mixed.engine for TensorRT inference...
+[10/20/2026-11:48:47] [TRT] [I] Loaded engine size: 60 MiB
+[10/20/2026-11:48:47] [TRT] [I] [MS] Running engine with multi stream info
+[10/20/2026-11:48:47] [TRT] [I] [MS] Number of aux streams is 5
+[10/20/2026-11:48:47] [TRT] [I] [MS] Number of total worker streams is 6
+[10/20/2026-11:48:47] [TRT] [I] [MS] The main stream provided by execute/enqueue calls is the first worker stream
+[10/20/2026-11:48:47] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +77, now: CPU 0, GPU 133 (MiB)
+int8_mixed  inference   2.20 ms (p90 2.33)  end-to-end   6.64 ms

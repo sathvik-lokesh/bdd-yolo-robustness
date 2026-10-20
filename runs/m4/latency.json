@@ -1,0 +1,27 @@
+{
+ "torch_fp32": {
+  "inference_ms_median": 6.186631999753445,
+  "inference_ms_p90": 8.96417370004201,
+  "end_to_end_ms_median": 10.563697499947011
+ },
+ "torch_fp16": {
+  "inference_ms_median": 6.534878499678598,
+  "inference_ms_p90": 8.834046800166107,
+  "end_to_end_ms_median": 11.484445500173024
+ },
+ "fp16": {
+  "inference_ms_median": 1.465282000026491,
+  "inference_ms_p90": 1.551192499937315,
+  "end_to_end_ms_median": 5.7804519997262105
+ },
+ "int8_day": {
+  "inference_ms_median": 2.1843975000592764,
+  "inference_ms_p90": 2.404808300070727,
+  "end_to_end_ms_median": 7.418582000354945
+ },
+ "int8_mixed": {
+  "inference_ms_median": 2.195442999891384,
+  "inference_ms_p90": 2.331061000495538,
+  "end_to_end_ms_median": 6.636668500050291
+ }
+}

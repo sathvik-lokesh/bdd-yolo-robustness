@@ -1,0 +1,30 @@
+Loading runs/m4/fp16.engine for TensorRT inference...
+[10/20/2026-10:58:09] [TRT] [I] Loaded engine size: 20 MiB
+[10/20/2026-10:58:09] [TRT] [I] [MS] Running engine with multi stream info
+[10/20/2026-10:58:09] [TRT] [I] [MS] Number of aux streams is 4
+[10/20/2026-10:58:09] [TRT] [I] [MS] Number of total worker streams is 5
+[10/20/2026-10:58:09] [TRT] [I] [MS] The main stream provided by execute/enqueue calls is the first worker stream
+[10/20/2026-10:58:09] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +30, now: CPU 0, GPU 48 (MiB)
+/home/sathvik_lokesh/Hanuman/nvidia-target/bdd-yolo-robustness/evaluate.py:129: RuntimeWarning: Mean of empty slice
+  return np.nanmean(arr), np.nanmean(arr[:, 0]), {c: np.nanmean(aps[c]) for c in classes}
+B_s0_fp16 day_test: mAP50-95 27.30 [26.02, 28.91]  mAP50 48.52
+Loading runs/m4/fp16.engine for TensorRT inference...
+[10/20/2026-11:01:20] [TRT] [I] Loaded engine size: 20 MiB
+[10/20/2026-11:01:20] [TRT] [I] [MS] Running engine with multi stream info
+[10/20/2026-11:01:20] [TRT] [I] [MS] Number of aux streams is 4
+[10/20/2026-11:01:20] [TRT] [I] [MS] Number of total worker streams is 5
+[10/20/2026-11:01:20] [TRT] [I] [MS] The main stream provided by execute/enqueue calls is the first worker stream
+[10/20/2026-11:01:20] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +30, now: CPU 0, GPU 48 (MiB)
+/home/sathvik_lokesh/Hanuman/nvidia-target/bdd-yolo-robustness/evaluate.py:129: RuntimeWarning: Mean of empty slice
+  return np.nanmean(arr), np.nanmean(arr[:, 0]), {c: np.nanmean(aps[c]) for c in classes}
+B_s0_fp16 night_test: mAP50-95 17.78 [16.72, 20.93]  mAP50 34.44
+Loading runs/m4/fp16.engine for TensorRT inference...
+[10/20/2026-11:04:38] [TRT] [I] Loaded engine size: 20 MiB
+[10/20/2026-11:04:38] [TRT] [I] [MS] Running engine with multi stream info
+[10/20/2026-11:04:38] [TRT] [I] [MS] Number of aux streams is 4
+[10/20/2026-11:04:38] [TRT] [I] [MS] Number of total worker streams is 5
+[10/20/2026-11:04:38] [TRT] [I] [MS] The main stream provided by execute/enqueue calls is the first worker stream
+[10/20/2026-11:04:38] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +30, now: CPU 0, GPU 48 (MiB)
+/home/sathvik_lokesh/Hanuman/nvidia-target/bdd-yolo-robustness/evaluate.py:129: RuntimeWarning: Mean of empty slice
+  return np.nanmean(arr), np.nanmean(arr[:, 0]), {c: np.nanmean(aps[c]) for c in classes}
+B_s0_fp16 dusk_test: mAP50-95 21.86 [20.60, 26.30]  mAP50 40.33
