@@ -17,7 +17,10 @@
   [-1.77, -0.29] = CI excludes 0) -> report "small day cost, under the 1.0 bar", never "no cost".
   Dose so far: 0 -> 14.94, 100 -> 17.29, 500 -> 17.91 (100 night images already give most of it).
   Dose jobs running (dose250 started ~20:20), then `python compare.py` for test 4. Then M4 TensorRT.
-- **>>> 2026-10-20 ~12:10 M4 DONE, TEST 5 JUDGED. NEXT = README, git init, push, then DeepPCB <<<**
+- **>>> 2026-10-20 ~14:15 PROJECT DONE + PUSHED: github.com/sathvik-lokesh/bdd-yolo-robustness (public, b6f6afc
+  on top of the user's MIT LICENSE commit). README numbers checked against runs/*.json (62 checks).
+  Left: LinkedIn writeup; optional repo description on GitHub. NEXT PROJECT = DeepPCB. <<<**
+- 2026-10-20 ~12:10 M4 DONE, TEST 5 JUDGED.
   User chose the workaround: INT8 engines keep 13/88 post-concat convs FP16 (m4.py FP16_PINS, asserted).
   mAP50-95 (day / night / dusk): torch 27.38/17.91/21.82; FP16 engine 27.30/17.78/21.86; INT8 day-calib
   26.57/16.61/21.12; INT8 mixed 26.67/16.92/20.60.
